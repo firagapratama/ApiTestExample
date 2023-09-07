@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-09-07T04:24:46.359Z",
+    "end": "2023-09-07T04:24:47.804Z",
+    "duration": 1445,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "014e6d37-c45d-4ac2-a425-c0fa219f7fdf",
+      "title": "",
+      "fullFile": "C:\\Users\\Arkamaya\\Documents\\ApiTestExample\\test\\api\\chaiAssert.js",
+      "file": "\\test\\api\\chaiAssert.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "52a458bd-ee42-451e-a2f7-ddcb255b87e9",
+          "title": "Post request example",
+          "fullFile": "C:\\Users\\Arkamaya\\Documents\\ApiTestExample\\test\\api\\chaiAssert.js",
+          "file": "\\test\\api\\chaiAssert.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "response status equal to 200",
+              "fullTitle": "Post request example response status equal to 200",
+              "timedOut": false,
+              "duration": 1419,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).status).to.equal(200)",
+              "err": {},
+              "uuid": "881a7c90-5c98-47bf-bb65-610e6956d35f",
+              "parentUUID": "52a458bd-ee42-451e-a2f7-ddcb255b87e9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "response body to haveOwnProperty",
+              "fullTitle": "Post request example response body to haveOwnProperty",
+              "timedOut": false,
+              "duration": 3,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).body).to.haveOwnProperty(`message`)",
+              "err": {},
+              "uuid": "77959c83-cc91-4aa2-9ce2-4bd3525f9b0a",
+              "parentUUID": "52a458bd-ee42-451e-a2f7-ddcb255b87e9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "881a7c90-5c98-47bf-bb65-610e6956d35f",
+            "77959c83-cc91-4aa2-9ce2-4bd3525f9b0a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1422,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
