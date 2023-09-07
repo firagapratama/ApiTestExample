@@ -10,7 +10,7 @@ describe('Get Request Example', () => {
             "username": "firagapratama",
             "firstName": "Firaga",
             "lastName": "Pratama",
-            "email": "firaga@backboxindonesia.or.id",
+            "email": "firaga@mail.sec",
             "password": "firaga",
             "phone": "082115009385",
             "userStatus": 1
